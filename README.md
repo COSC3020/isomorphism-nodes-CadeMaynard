@@ -10,3 +10,7 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+## Proof:
+
+If two graphs do not have the same number of vertices they cannot be isomorphic because isomorphism requires that the function from one graph to another be onto which is impossible if there is not the same number of vertices. At least one vertex will always end up either unmapped, or unmapped to.
